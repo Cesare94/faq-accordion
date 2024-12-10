@@ -1,0 +1,300 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    font-family: "Work Sans", sans-serif;
+    background-image: url('../assets/images/background-pattern-desktop.svg');
+    background-repeat: no-repeat;
+    background-color: hsl(275, 100%, 97%);
+}
+
+.container {
+    width: 598px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(292, 42%, 14%);
+    margin: 10% auto;
+    padding: 0 3% 3% 3%;
+    border-radius: 20px;
+}
+
+/* TITLE */
+
+.icon {
+    display: flex;
+}
+
+
+.icon img {
+    margin-right: 15px;
+}
+
+.icon h1 {
+    font-size: 48px;
+}
+
+/* PREVIOUS ANSWER */
+
+
+
+.text span {
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.text button {
+    position: relative;
+    top: 10px;
+    left: 13.5%;
+    background-color:  hsl(0, 0%, 100%);
+    border: none;
+   
+}
+
+.text button img {
+    cursor: pointer;
+   
+}
+
+
+.textAnswer p {
+    width: 520px;
+    
+}
+
+/* FIRST ANSWER */
+.firstQ {
+    margin-bottom: 5%;
+    border-top: 1px solid;
+   
+
+} 
+
+.firstQ button {
+    background-color: hsl(0, 0%, 100%);
+    position: relative;
+    top: 8px;
+    left: 53%;
+    border: none;
+    
+}
+
+.firstQ button img {
+    cursor: pointer;
+    
+}
+
+.answerFirst {
+    display: none;
+}
+
+/* SECOND ANSWER */
+.secondQ {
+    margin-bottom: 5%;
+}
+
+.secondQ button {
+    background-color: hsl(0, 0%, 100%);
+    position: relative;
+    top: 8px;
+    left: 12%;
+    border: none;
+    
+}
+
+.secondQ button img {
+    cursor: pointer;
+    
+}
+
+.answerSecond {
+    display: none;
+}
+/* THIRD ANSWER */
+.thirdQ {
+    margin-bottom: 3%;
+}
+
+.thirdQ button {
+    background-color: hsl(0, 0%, 100%);
+    position: relative;
+    top: 8px;
+    left: 20%;
+    border: none;
+    
+}
+
+.thirdQ button img {
+    cursor: pointer;
+    
+}
+
+.answerThird {
+    display: none;
+}
+
+hr {
+    color: hsl(275, 100%, 97%);
+    z-index: 1;
+}
+
+@media screen and (max-width:778px) {
+
+    body {
+        background-image: url("../assets/images/background-pattern-mobile.svg");
+        background-repeat: repeat;
+        
+
+    }
+    .container {
+        width: 350px;
+        font-size: 24px;
+        margin: 20% auto;
+        z-index: 0;
+    
+        
+    }
+
+    
+    
+    .icon img {
+        width: 40px;
+    }
+    
+    .icon h1 {
+        font-size: 40px;
+    }
+
+
+
+    .question {
+        border: 1px solid black;
+        width: 310px;
+        z-index: 0;
+    }
+
+    .text {
+       width: 200px;
+    
+    }
+
+    .text span {
+        font-size: 16px; 
+        position: relative;
+       
+        
+        
+    }
+    
+    .text button {
+        position: relative;
+        left: 78%;
+        
+        
+        
+        
+    }
+    
+    .text button img {
+        position: relative;
+        cursor: pointer;
+        width: 25px;
+        border-bottom: black;
+       
+    }
+    
+    
+    .textAnswer p {
+        width: 320px;
+        font-size: 14px;
+        position: relative;
+        
+       
+        
+    }
+
+    /* FIRST ANSWER */
+
+.firstQ span {
+    font-size: 16px;
+    font-weight: bold;
+
+
+}
+
+.firstQ button {
+    left: 10%;
+    
+    
+}
+
+.firstQ button img {
+    width: 25px;
+    
+}
+
+.answerFirst {
+
+    font-size: 14px;
+}
+
+/* SECOND ANSWER */
+
+.secondQ {
+    width: 200px;
+}
+
+.secondQ span {
+    font-size: 16px;
+    font-weight: bold;
+  
+}
+.secondQ button {
+    left: 73%;
+   
+   
+    
+    
+}
+
+.secondQ button img {
+    cursor: pointer;
+    width: 25px;
+    
+}
+
+.answerSecond {
+    display: none;
+    font-size: 14px;
+}
+
+/* THIRD ANSWER */
+.thirdQ {
+    width: 150px;
+}
+
+.thirdQ span {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.thirdQ button {
+    left: 92%;
+   
+    
+}
+
+.thirdQ button img {
+    width: 25px;
+    
+}
+
+.answerThird {
+    display: none;
+    font-size: 12px;
+}
+
+
+
+}
